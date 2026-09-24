@@ -67,6 +67,8 @@ Paul, first known as Saul, was a strict Pharisee who tried to destroy the church
 11. **Wrote letters.** He wrote to churches and co-workers to teach, correct and encourage them. *Romans 1:1–7; 2 Thessalonians 3:17*
 12. **Testified before rulers.** He spoke before Felix, Festus and King Agrippa, and he said, "I appeal unto Caesar." *Acts 24–26; 25:11*
 
+*Tradition.* Early Christian writers say Paul was beheaded in Rome under Nero, c. AD 64–67. Whether he also wrote Hebrews has been debated since the early church. Most scholars today think he did not.
+
 \newpage
 
 ## Across Scripture

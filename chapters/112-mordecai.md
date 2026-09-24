@@ -84,6 +84,8 @@ Shushan, also called Susa, was one of the royal cities of the Persian kings, in 
 
 ## Group notes
 
+*Tradition.* By the time 2 Maccabees was written, in the second or first century BC, Purim was also called Mordecai's day (2 Maccabees 15:36, in the Apocrypha).
+
 \newpage
 
 ## Across Scripture

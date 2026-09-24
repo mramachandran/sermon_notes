@@ -79,6 +79,8 @@ Zebedee's family seems to have been fairly well off. They owned at least one boa
 
 ## Group notes
 
+*Tradition.* An early story in Eusebius says the man who brought James to trial was moved by his witness, confessed Christ, and died with him. A medieval tradition says James preached in Spain and that his bones lie at Santiago de Compostela. Scripture says nothing of either.
+
 \newpage
 
 ## Across Scripture

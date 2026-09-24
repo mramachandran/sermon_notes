@@ -69,6 +69,8 @@ Simon was a Galilean fisherman when his brother Andrew brought him to Jesus, who
 11. **Welcomed Cornelius.** A vision at Joppa taught him that God is no respecter of persons, and he had a Roman centurion's household baptized. *Acts 10:1–48; 11:1–18*
 12. **Wrote to scattered believers.** The letter of 1 Peter encourages Christians facing suffering to hope and to do good. *1 Peter 1:1–9*
 
+*Tradition.* Early writers say Peter died as a martyr in Rome under Nero, c. AD 64–67. Jesus hints at his death in John 21:18–19. The story that he was crucified upside down comes later.
+
 \newpage
 
 ## Across Scripture

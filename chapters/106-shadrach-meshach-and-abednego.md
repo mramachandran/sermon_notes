@@ -9,21 +9,21 @@ key_passages: Daniel 1; 3
 
 *Three young exiles who would not bow, and who found God with them in the fire.*
 
-Hananiah, Mishael and Azariah were young men of Judah taken to Babylon with Daniel, renamed Shadrach, Meshach and Abednego, and trained to serve King Nebuchadnezzar. Then the king set up a huge golden image and ordered everyone to bow. The three refused, with one of Scripture's bravest statements of faith: God is able to save us, "but if not," we still will not bow. Thrown into a blazing furnace, they walked in the fire with a fourth figure and came out without even the smell of fire.
+Hananiah, Mishael and Azariah were young men of Judah taken to Babylon with Daniel and renamed Shadrach, Meshach and Abednego. King Nebuchadnezzar set up a huge golden image and ordered everyone to bow. The three refused, with one of Scripture's bravest statements of faith: God is able to save us, "but if not," we still will not bow. Thrown into a blazing furnace, they walked in the fire with a fourth figure and came out without even the smell of fire.
 
 ## At a glance
 
 | | |
 |---|---|
 | Hebrew names | Hananiah, Mishael and Azariah (Daniel 1:6) |
-| Babylonian names | Shadrach, Meshach and Abed-nego; meanings uncertain (Daniel 1:7) |
+| New names | Shadrach, Meshach and Abed-nego (Daniel 1:7) |
 | Family | Of Judah, among the young nobles (Daniel 1:3–6) |
 | When | Taken c. 605 BC; the furnace is not dated |
-| Key people | Daniel, Nebuchadnezzar, Ashpenaz, the accusing Chaldeans |
+| Key people | Daniel, Nebuchadnezzar, Ashpenaz |
 | Main passages | Daniel 1; 2:17–18, 49; 3 |
 | New Testament | Not named; compare Hebrews 11:34 |
 
-> Our God whom we serve is able to deliver us … But if not, be it known unto thee, O king, that we will not serve thy gods.
+> If it be so, our God whom we serve is able to deliver us from the burning fiery furnace … But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up.
 >
 > — Daniel 3:17–18, KJV
 

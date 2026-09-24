@@ -65,6 +65,8 @@ Mary Magdalene is named in all four Gospels. Jesus had cast seven devils out of 
 11. **Carried the first message.** Jesus sent her to his brethren, and she went and told the disciples that she had seen the Lord. *John 20:17–18*
 12. **Was counted among the witnesses.** Luke names her first among the women who told these things to the apostles, though at first they did not believe. *Luke 24:10–11*
 
+*Tradition.* In AD 591 Pope Gregory the Great preached that Mary Magdalene was the same person as the sinful woman of Luke 7 and Mary of Bethany. From this came the Western picture of her as a repentant prostitute. Scripture never says this. Eastern churches never adopted it, and in 1969 the Roman Catholic calendar separated the three women again. Later legends place her last years in Ephesus or southern France. The Gospel of Mary, from the second century, is not Scripture.
+
 \newpage
 
 ## Across Scripture

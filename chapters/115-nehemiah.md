@@ -65,6 +65,8 @@ Nehemiah was cupbearer to the Persian king Artaxerxes I. Hearing that Jerusalem'
 11. **Would not be distracted.** He answered his enemies, "I am doing a great work, so that I cannot come down." *Nehemiah 6:1–14*
 12. **Dedicated the wall with joy.** Two great choirs walked the walls, and "the joy of Jerusalem was heard even afar off." *Nehemiah 12:27–43*
 
+*Tradition.* The book of 2 Maccabees, in the Apocrypha, says Nehemiah founded a library of sacred books (2 Maccabees 2:13). In the Hebrew Bible, Ezra and Nehemiah were long counted as one book.
+
 \newpage
 
 ## Across Scripture

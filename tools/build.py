@@ -191,8 +191,9 @@ def parse_extras(pages):
                 cur = {"title": h, "items": []} if h in EXTRA_HEADS else None
                 if cur: out.append(cur)
                 continue
-            if s.startswith("*Tradition.*"):
-                out.append({"title": "Tradition", "items": [("p", s[len("*Tradition.*"):].strip())]})
+            mt = re.match(r"^\*(Tradition|Debated)\.\*\s*(.+)$", s)
+            if mt:
+                out.append({"title": "Tradition" if mt[1] == "Tradition" else "A debated point", "items": [("p", mt[2])]})
                 cur = None
                 continue
             if cur is not None and s:

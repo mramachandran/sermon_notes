@@ -66,6 +66,8 @@ Isaiah son of Amoz prophesied in Jerusalem for about forty years or more, throug
 11. **Spoke comfort.** "Comfort ye, comfort ye my people, saith your God." *Isaiah 40:1–11, 28–31*
 12. **Described the suffering servant.** "He was wounded for our transgressions, he was bruised for our iniquities." *Isaiah 52:13–53:12*
 
+*Tradition.* Jewish and early Christian writings say Isaiah was sawn in two under King Manasseh. Some link this to Hebrews 11:37, which does not name him.
+
 \newpage
 
 ## Across Scripture

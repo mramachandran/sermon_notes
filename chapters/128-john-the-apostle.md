@@ -69,6 +69,8 @@ John was a Galilean fisherman, the son of Zebedee and brother of James, and one 
 11. **Went to Samaria.** Once eager for fire on Samaritans, he prayed there for believers to receive the Spirit. *Acts 8:14–17*
 12. **Wrote so others would believe.** His traditional Gospel was written "that ye might believe." *John 20:30–31*
 
+*Tradition.* Irenaeus, writing c. AD 180, says John the apostle wrote the Gospel at Ephesus and lived into the reign of Trajan (from AD 98). Many Christians and scholars accept this. Others think the Gospel came from the beloved disciple's circle, or from a "John the elder" mentioned by Papias. The letters' writer calls himself "the elder" (2 John 1; 3 John 1). The writer of Revelation calls himself John but not an apostle, and since ancient times some have doubted that he wrote the Gospel.
+
 \newpage
 
 ## Across Scripture

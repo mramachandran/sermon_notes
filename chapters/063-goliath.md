@@ -77,6 +77,8 @@ The Philistines lived on the coastal plain of Canaan, in five chief cities: Gaza
 
 ## Group notes
 
+*Debated.* 2 Samuel 21:19 says Elhanan killed "the brother of Goliath the Gittite," with "the brother of" in italics in the KJV. 1 Chronicles 20:5 names the man Elhanan killed as Lahmi, Goliath's brother. Many scholars think the text of 2 Samuel was damaged in copying. Others think Elhanan was another name for David.
+
 \newpage
 
 ## Across Scripture
