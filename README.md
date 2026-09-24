@@ -11,4 +11,4 @@ Live site: https://mramachandran.github.io/sermon_notes/
 ## Adding a study
 
 1. Create a folder named after the person (e.g. `hezekiah/`) with an `index.html` inside.
-2. Add a link to it in the root `index.html` list.
+2. Add a link to it in the root `index.html` list..
