@@ -1,14 +1,11 @@
-# Sermon Notes
+# Lives of the Bible
 
-Bible character studies — timelines, key activities and Scripture references.
+A small-group study of 170 people in Scripture, from Adam to the early church. Each person gets a four-page chapter: overview, timeline, key activities, and every Old and New Testament reference with discussion questions.
 
 Live site: https://mramachandran.github.io/sermon_notes/
 
-## Studies
+- Chapters are written in `chapters/` as Markdown.
+- `python3 tools/build.py` builds the website and printable PDFs into `docs/`.
+- See `CLAUDE.md` and `book/01-style-guide.md` for how chapters are written.
 
-- [Josiah](josiah/) — 2 Kings 22–23, 2 Chronicles 34–35
-
-## Adding a study
-
-1. Create a folder named after the person (e.g. `hezekiah/`) with an `index.html` inside.
-2. Add a link to it in the root `index.html` list..
+Scripture quotations are from the King James Version.
