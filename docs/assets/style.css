@@ -139,3 +139,10 @@ footer.site p{margin:0;padding:32px 0 48px;color:var(--muted);font-size:15px}
  .closing{background:none;color:var(--ink);border-top:2px solid var(--ink)}
  ol.timeline li,.act,.refs li{break-inside:avoid}
 }
+
+.deeper{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0 40px;border-top:2px solid var(--ink)}
+.deep{padding:24px 0 28px;border-bottom:1px solid var(--rule)}
+.deep h3{font-size:28px;margin:0 0 10px}
+.deep p{margin:0 0 10px;color:var(--soft);font-size:17px}
+.deep ul{margin:0;padding-left:20px;color:var(--soft);font-size:17px}
+.deep li{margin:0 0 8px}

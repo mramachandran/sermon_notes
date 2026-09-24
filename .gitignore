@@ -2,3 +2,4 @@ tools/.tmp/
 __pycache__/
 .DS_Store
 _import/
+.web-update.zip

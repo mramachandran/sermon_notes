@@ -171,7 +171,33 @@ def parse_chapter(path, parts):
         raise ChapterError(f"{fn}: page 4 needs '### Old Testament' and/or '### New Testament' lists")
     if len(ch["questions"]) != 4:
         raise ChapterError(f"{fn}: page 4 needs exactly 4 discussion questions like '1. **Observe:** ...'")
+    ch["extras"] = parse_extras(pages)
     return ch
+
+
+EXTRA_HEADS = ("The world around them", "Words and places", "Read it yourself")
+
+
+def parse_extras(pages):
+    """Web-only study extras: '### The world around them', '### Words and places',
+    '### Read it yourself' blocks and loose '*Tradition.*' paragraphs. Not printed in the PDF."""
+    out = []
+    for page in pages:
+        cur = None
+        for raw in page.splitlines():
+            s = raw.strip()
+            if s.startswith("#"):
+                h = s.lstrip("#").strip()
+                cur = {"title": h, "items": []} if h in EXTRA_HEADS else None
+                if cur: out.append(cur)
+                continue
+            if s.startswith("*Tradition.*"):
+                out.append({"title": "Tradition", "items": [("p", s[len("*Tradition.*"):].strip())]})
+                cur = None
+                continue
+            if cur is not None and s:
+                cur["items"].append(("li", s[2:]) if s.startswith("- ") else ("p", s))
+    return [x for x in out if x["items"]]
 
 
 # ------------------------------------------------------------------ print pages
@@ -306,6 +332,16 @@ def chapter_page(ch, prev, nxt):
     qs = "".join(f"<li><em>{k}:</em> {q}</li>" for k, q in ch["questions"])
     pn = (f'<a class="prev" href="../{prev["slug"]}/">← {prev["number"]} · {prev["name"]}</a>' if prev else "<span></span>")
     pn += (f'<a class="next" href="../{nxt["slug"]}/">{nxt["number"]} · {nxt["name"]} →</a>' if nxt else "")
+    blocks = ""
+    for x in ch.get("extras", []):
+        inner, ul = "", []
+        for kind, t in x["items"] + [("end", "")]:
+            if kind == "li": ul.append(f"<li>{md(t)}</li>"); continue
+            if ul: inner += f"<ul>{''.join(ul)}</ul>"; ul = []
+            if kind == "p": inner += f"<p>{md(t)}</p>"
+        blocks += f'<div class="deep"><h3 class="display">{html.escape(x["title"])}</h3>{inner}</div>'
+    deeper = (f'<section id="deeper"><div class="wrap"><h2 class="display">Go deeper</h2><p class="intro">Extra background and a short reading plan for the week. These are on the website only, not in the printed pages.</p><div class="deeper">{blocks}</div></div></section>' if blocks else "")
+    deeper_link = '<a href="#deeper">Go deeper</a>' if blocks else ""
     closing = (f'<div class="closing"><div class="wrap"><blockquote>“{md(ch["closing"])}”<cite>{md(ch["closing_ref"])}, KJV</cite></blockquote></div></div>' if ch["closing"] else "")
     body = f'''<main>
 <div class="wrap">
@@ -316,7 +352,7 @@ def chapter_page(ch, prev, nxt):
     <p class="lede">{ch["summary"]}</p>
     <p>{ch["intro"]}</p>
     <p class="actions"><a class="button" href="{ch["slug"]}-lives-of-the-bible.pdf" download>Download printable PDF (4 pages)</a></p>
-    <nav class="jump" aria-label="On this page"><a href="#timeline">Timeline</a><a href="#activities">Key activities</a><a href="#references">Across Scripture</a><a href="#discussion">Discussion</a></nav>
+    <nav class="jump" aria-label="On this page"><a href="#timeline">Timeline</a><a href="#activities">Key activities</a><a href="#references">Across Scripture</a><a href="#discussion">Discussion</a>{deeper_link}</nav>
   </div>
   <dl class="facts">{facts}</dl>
 </header>
@@ -326,6 +362,7 @@ def chapter_page(ch, prev, nxt):
 <section id="activities"><div class="wrap"><h2 class="display">Key activities</h2><p class="intro">{ch["acts_note"]}</p><ol class="acts">{acts}</ol></div></section>
 <section id="references"><div class="wrap"><h2 class="display">Across Scripture</h2><p class="intro">{ch["refs_note"]}</p><div class="refs">{cols}</div></div></section>
 <section id="discussion"><div class="wrap"><div class="discuss"><h2 class="display">For discussion</h2><ol>{qs}</ol></div></div></section>
+{deeper}
 {closing}
 <div class="wrap"><nav class="pn" aria-label="Chapters">{pn}</nav></div>
 </main>'''
