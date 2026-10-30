@@ -9,7 +9,7 @@ key_passages: 2 Samuel 7; 12; 1 Kings 1
 
 *The prophet who brought David God's greatest promise and his hardest rebuke.*
 
-Nathan was a prophet at David's court in Jerusalem. Scripture tells us nothing of his family or background, but it shows him at three turning points in David's reign. First, he brought God's promise that David's house and throne would last for ever. Second, after David's sin with Bathsheba and the killing of Uriah, Nathan told the king a simple story about a rich man who stole a poor man's only lamb. When David burned with anger, Nathan said, "Thou art the man." Third, in David's old age, Nathan acted quickly to make sure Solomon, not Adonijah, took the throne. Nathan shows what it means to speak God's word faithfully, whether the message is comfort or confrontation, and to do it with wisdom and courage.
+Nathan was a prophet at David's court in Jerusalem. Scripture shows him at three turning points in David's reign. First, he brought God's promise that David's house and throne would last for ever. Second, after David's sin with Bathsheba and the killing of Uriah, he told the king a story about a rich man who stole a poor man's only lamb, then said, "Thou art the man." Third, in David's old age, he made sure Solomon, not Adonijah, took the throne. He spoke God's word faithfully, in comfort and in rebuke.
 
 ## At a glance
 
@@ -20,7 +20,7 @@ Nathan was a prophet at David's court in Jerusalem. Scripture tells us nothing o
 | When | David's reign in Jerusalem to c. 970 BC |
 | Key places | Jerusalem, the spring of Gihon |
 | Key people | David, Bathsheba, Solomon, Zadok the priest, Adonijah |
-| Writings | "The book of Nathan the prophet," not preserved as a separate book (1 Chronicles 29:29; 2 Chronicles 9:29) |
+| Writings | "The book of Nathan the prophet," not preserved (1 Chronicles 29:29) |
 | Not the same as | Nathan son of David and Bathsheba (1 Chronicles 3:5; Luke 3:31) |
 | New Testament | Not named |
 

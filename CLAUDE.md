@@ -12,6 +12,7 @@ Read these before doing any work:
 
 - `chapters/` — one Markdown file per person, named `NNN-slug.md` (for example `001-adam.md`). This is the source of truth.
 - `tools/build.py` — turns every chapter into a web page and a 4-page printable PDF.
+- `tools/build_epub.py` — builds the Kindle e-book (all 170 chapters) to `dist/lives-of-the-bible.epub`. Author, year, publisher and ISBN are set at the top of the file. Put a 1600×2560 `book/cover.jpg` in place and it is added automatically.
 - `docs/` — the generated website. Never edit it by hand; rebuild it instead.
 - `book/` — style guide and character list.
 

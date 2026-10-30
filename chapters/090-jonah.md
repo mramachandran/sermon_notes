@@ -9,7 +9,7 @@ key_passages: Jonah; 2 Kings 14:25
 
 *The runaway prophet who learned that God's mercy is wider than his own.*
 
-Jonah was a prophet of the northern kingdom in the days of King Jeroboam II. At home he brought good news: God would restore Israel's borders. But when God sent him to Nineveh, a great city of Assyria, Israel's fierce enemy, Jonah ran the other way. A storm, a great fish and a second call brought him to Nineveh at last. He preached, and the whole city repented. Instead of rejoicing, Jonah was angry, because he had known all along that God was gracious. The book ends with God's question to him, still unanswered. Jesus pointed to Jonah as a sign of his own death and resurrection, and to Nineveh as a people who repented when they heard.
+Jonah was a prophet of the northern kingdom in the days of King Jeroboam II. At home he brought good news: God would restore Israel's borders. But when God sent him to Nineveh, the great city of Israel's enemy Assyria, Jonah ran the other way. A storm, a great fish and a second call brought him to Nineveh at last. He preached, and the whole city repented. Instead of rejoicing, Jonah was angry, because he had known all along that God was gracious. The book ends with God's question to him, still unanswered. Jesus pointed to Jonah as a sign of his own death and resurrection, and to Nineveh as a people who repented when they heard.
 
 ## At a glance
 
@@ -17,7 +17,7 @@ Jonah was a prophet of the northern kingdom in the days of King Jeroboam II. At 
 |---|---|
 | Name | Hebrew *Yonah*, "dove" |
 | Family | Son of Amittai (Jonah 1:1; 2 Kings 14:25) |
-| Home | Gath-hepher, in the tribal land of Zebulun in Galilee (2 Kings 14:25; Joshua 19:13) |
+| Home | Gath-hepher in Zebulun (2 Kings 14:25; Joshua 19:13) |
 | When | Reign of Jeroboam II of Israel, c. 793–753 BC |
 | Key places | Joppa, the sea, Nineveh |
 | Key people | Jeroboam II, the sailors, the king and people of Nineveh |

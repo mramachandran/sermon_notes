@@ -21,3 +21,10 @@
 
 ## Not shown in the web or PDF output (still in the source files)
 Short-chapter extras such as "The world around them", "Words and places", "Read it yourself" and loose *Tradition.* paragraphs. The new build doesn't display them, so decide whether to keep or delete them.
+
+## 30 October 2026: last three overflows fixed
+
+All 170 chapters now fit. Cuts only:
+- **058 Eli:** intro tightened; "the temple of the LORD" dropped from Key places.
+- **070 Nathan:** intro condensed (lost "Scripture tells us nothing of his family", "When David burned with anger"). Closing line is now "He spoke God's word faithfully, in comfort and in rebuke." Writings row now cites only 1 Chronicles 29:29 (2 Chronicles 9:29 is still on page 4).
+- **090 Jonah:** "Israel's fierce enemy" is now "Israel's enemy Assyria"; Home row shortened to "Gath-hepher in Zebulun".
