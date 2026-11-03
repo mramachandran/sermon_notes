@@ -27,6 +27,10 @@ VOLS = [
     (2, "Volume II", "The New Testament", lambda n: n >= B.NT_START, "vol2-new-testament"),
 ]
 esc = lambda t: html.escape(t, quote=False)
+# KDP paperback: no page tint. A full-page fill reaches the page edge, which KDP's
+# previewer flags as "outside the margins" on a No Bleed book (and on a black-and-white
+# press a cream tint prints as a grey screen). The website keeps its cream paper.
+B.PAPER = "transparent"  # draw no page fill at all
 DISP, SERIF, INK, ACC, MUTED, RULE, PAPER = B.DISP, B.SERIF, B.INK, B.ACC, B.MUTED, B.RULE, B.PAPER
 
 
@@ -118,15 +122,20 @@ def main():
                 w.add_page(pdfpage)
             missing = []
             for c in vc:
-                f = B.OUT / c["slug"] / f'{c["slug"]}-lives-of-the-bible.pdf'
-                if not f.exists():
-                    missing.append(c["name"]); continue
+                # render each chapter fresh from chapters/ (white paper, same 4-page layout)
+                ch_html = tmp / f'{c["slug"]}.html'
+                ch_html.write_text(B.print_html(c), encoding="utf-8")
+                page.goto(ch_html.as_uri()); page.evaluate("document.fonts.ready"); page.wait_for_timeout(300)
+                if any(px > 0 for px in page.evaluate(B.FIT_JS)):
+                    missing.append(f'{c["name"]} (does not fit 4 pages; run tools/build.py)'); continue
+                f = tmp / f'{c["slug"]}.pdf'
+                page.pdf(path=str(f), width="6in", height="9in", print_background=True, prefer_css_page_size=True)
                 start = len(w.pages)
                 for pdfpage in PdfReader(f).pages:
                     w.add_page(pdfpage)
                 w.add_outline_item(f'{c["number"]}. {re.sub("<[^>]+>", "", c["name"])}', start)
             if missing:
-                raise SystemExit(f"Run tools/build.py first; missing PDFs for: {', '.join(missing)}")
+                raise SystemExit(f"Could not build: {', '.join(missing)}")
             w.add_metadata({"/Title": f"{B.BOOK} — {vol[1]}: {vol[2]}", "/Author": E.AUTHOR})
             out = E.DIST / f"lives-of-the-bible-{vol[4]}.pdf"
             with open(out, "wb") as fh:
